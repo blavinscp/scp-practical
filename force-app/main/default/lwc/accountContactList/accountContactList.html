@@ -1,0 +1,24 @@
+<template>
+    <lightning-card title="Account Contacts" icon-name="standard:contact">
+        <div class="slds-p-horizontal_medium">
+            <template if:true={primaryContactName}>
+                <p class="slds-text-heading_small">
+                    Primary contact: {primaryContactName}
+                </p>
+            </template>
+            <template if:false={primaryContactName}>
+                <p class="slds-text-body_small slds-text-color_weak">
+                    No primary contact selected.
+                </p>
+            </template>
+
+            <ul class="slds-m-top_small">
+                <template for:each={contacts} for:item="contact">
+                    <li key={contact.Id}>
+                        <c-account-contact-row contact={contact}></c-account-contact-row>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </lightning-card>
+</template>

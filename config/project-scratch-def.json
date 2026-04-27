@@ -1,0 +1,30 @@
+{
+  "orgName": "SCP Practical Dev Exam",
+  "edition": "enterprise",
+  "features": [
+    "HealthCloudUser",
+    "OmnistudioDesigner",
+    "OmnistudioRuntime",
+    "DocGenDesigner",
+    "BusinessRulesEngine",
+    "EinsteinGPTPlatform",
+    "EinsteinSearch",
+    "Pardot",
+    "SalesUser",
+    "CRMUser",
+    "CustomerCommunityPlus",
+    "PartnerCommunity",
+    "EnableSetPasswordInApi"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "emailAdministrationSettings": {
+      "enableEnhancedEmailEnabled": true
+    }
+  }
+}
