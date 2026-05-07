@@ -10,6 +10,7 @@ sf org create scratch \
   --definition-file config/project-scratch-def.json \
   --alias "$ALIAS" \
   --duration-days "$DURATION" \
+  --target-dev-hub corehc-prod \
   --set-default
 
 echo "Deploying source..."
