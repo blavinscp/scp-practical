@@ -25,6 +25,10 @@
     },
     "emailAdministrationSettings": {
       "enableEnhancedEmailEnabled": true
+    },
+    "platformWebIdeSettings": {
+      "enablePlatformWebIde": true,
+      "showDeveloperConsoleWithWebIde": true
     }
   }
 }
